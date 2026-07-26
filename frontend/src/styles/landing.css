@@ -148,9 +148,12 @@ header[role='banner'] {
 }
 .nav-menu a {
   position: relative;
+  display: inline-flex;
+  align-items: center;
   font-size: var(--text-sm);
   font-weight: 500;
   padding: 0.25rem 0;
+  min-height: 44px;
 }
 .nav-menu a::after {
   content: '';
@@ -508,7 +511,10 @@ footer[role='contentinfo'] {
   gap: 0.6rem;
 }
 .footer-section ul a {
+  display: inline-flex;
+  align-items: center;
   font-size: var(--text-sm);
+  min-height: 44px;
 }
 .footer-bottom {
   max-width: var(--container);

@@ -238,12 +238,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
           
           <div className="features-grid">
             <article className="feature-card">
-              <img 
-                src="/icons/decentralized.svg" 
-                alt="" 
+              <img
+                src="/icons/decentralized.svg"
+                alt=""
                 aria-hidden="true"
                 width="64"
                 height="64"
+                loading="lazy"
               />
               <h3>{t('features.decentralized.title')}</h3>
               <p>
@@ -252,12 +253,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
             </article>
 
             <article className="feature-card">
-              <img 
-                src="/icons/secure.svg" 
-                alt="" 
+              <img
+                src="/icons/secure.svg"
+                alt=""
                 aria-hidden="true"
                 width="64"
                 height="64"
+                loading="lazy"
               />
               <h3>{t('features.secure.title')}</h3>
               <p>
@@ -266,12 +268,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
             </article>
 
             <article className="feature-card">
-              <img 
-                src="/icons/fast.svg" 
-                alt="" 
+              <img
+                src="/icons/fast.svg"
+                alt=""
                 aria-hidden="true"
                 width="64"
                 height="64"
+                loading="lazy"
               />
               <h3>{t('features.fast.title')}</h3>
               <p>
